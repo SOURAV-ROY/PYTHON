@@ -13,7 +13,7 @@ Created on Jul 17, 2017
 #         print("Sum is : ", result)
 
 result = 0
-for num in range(5, 51, 5):
-    print(num)
+for num in range(1, 11, 1):
+    print("Number =>", num)
     result += num
-    print("Sum Is : ", result)
+    print("Fibonacci Series Sum :", result)

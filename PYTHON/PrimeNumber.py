@@ -1,15 +1,15 @@
-'''
-Created on Jun 25, 2017
-****************************************** PRINT WITHOUT PRIME NUMBERS
-@author: SOURAV
-'''
-for x in range(2,101):
-    isprime ="no"
-#     print(x)
-    for i in range(2,x):
-        if x%i ==0:
-            print(x)
-            isprime="yes"
+# num = 100
+num = int(input("Input The Number: "))
+
+#  Prime Number are Greater Than 1
+if num > 1:
+    # Check For Factors
+    for i in range(2, num):
+        if (num % i) == 0:
+            print(num, "is not a prime Number")
+            print(i, "Times", num//i, "is", num)
             break
-            if isprime=="no":
-                print(x)
+    else:
+        print(num, "Is A Prime Number")
+else:
+    print(num, "Is's Not A Prime Number => Less  Than 1 OK Guys***")

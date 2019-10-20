@@ -58,7 +58,9 @@ Created on Jun 15, 2017
 Saarc = ["Bangladesh", "Afghanistan", "Bhutan", "Nepal", "India",  "Pakistan", "Sri Lanka"]
 print(Saarc)
 print(Saarc[0])
-print(Saarc[4])
+# print(Saarc[1])
+# print(Saarc[2])
+# print(Saarc[3])
 print("Number of countries in Saarc ::: ",len(Saarc))
 
 

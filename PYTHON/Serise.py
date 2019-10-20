@@ -24,6 +24,6 @@ from builtins import int
 num = input("Enter the number : ")
 num = int(num)
 result = 0
-for num in range(1, num):
-    result  += num
-    print(result)
+for num in range(1, num+1):
+    result += num
+    print("All Fibonacci Numbers By Series =>", result)

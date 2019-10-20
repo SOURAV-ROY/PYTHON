@@ -19,5 +19,5 @@ elif Marks >= 40:
     print("Grade = B-")
 else:
     print("Grade = F ")
-    
-print("Your Marks Is : ",Marks)
+
+print("Your Marks Is : ", Marks)
