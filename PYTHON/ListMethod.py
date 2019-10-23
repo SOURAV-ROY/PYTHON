@@ -16,8 +16,9 @@ numbers = [10, 2, 3, 3, 4, 4, 5, 7]
 
 # REMOVE DUPLICATE ITEMS ***********************
 uniqueList = []
+# sourav = "Sourav"
 for number in numbers:
     if number not in uniqueList:
         uniqueList.append(number)
-print(uniqueList)
-
+# print("Array List: ", uniqueList, numbers)
+print(F"Array List :> {uniqueList}")
