@@ -21,4 +21,5 @@ for number in numbers:
     if number not in uniqueList:
         uniqueList.append(number)
 # print("Array List: ", uniqueList, numbers)
+print(F"Array List Type :> {type(uniqueList)}")
 print(F"Array List :> {uniqueList}")
