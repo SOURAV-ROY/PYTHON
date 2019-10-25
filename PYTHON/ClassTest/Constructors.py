@@ -21,3 +21,6 @@ class Point:
 john = Point("Sourav Roy")
 # print(john.name)
 john.talk()
+
+don = Point('DON')
+don.talk()
