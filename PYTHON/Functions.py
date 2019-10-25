@@ -1,9 +1,9 @@
-def user_talk(name):
-    print(f'Hello -> {name}')
-    print('Welcome Python')
+def user_talk(first_name, last_name):
+    print(f'Hello -> {first_name} {last_name} !!')
+    print('Welcome To Python')
 
 
 print("******")
-user_talk("Sourav")
-user_talk("ROY")
+user_talk("Sourav", "Roy")
+# user_talk("Gaurab")
 print("######")
