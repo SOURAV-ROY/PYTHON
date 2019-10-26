@@ -1,5 +1,7 @@
 import random
 
-random.random()
-randomNumber = random.randint(1, 200)
-print("RandomNumber = ", randomNumber)
+for i in range(5):
+    # random.random()
+    randomNumber = random.randint(1, 200)
+    # print("RandomNumber = ", randomNumber)
+    print(f"RandomNumber = {randomNumber}")
