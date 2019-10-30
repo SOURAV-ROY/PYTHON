@@ -2,6 +2,8 @@
 import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
 
+# def process_workbook(fileName)
+
 wb = xl.load_workbook("sourav.xlsx")
 sheet = wb['Sheet1']
 cell = sheet['a1']
@@ -21,11 +23,11 @@ for row in range(2, sheet.max_row + 1):
 values = Reference(sheet,
           min_row=2,
           max_row=sheet.max_row,
-          min_col=5,
-          max_col=5)
+          min_col=4,
+          max_col=4)
 
 chart = BarChart()
 chart.add_data(values)
-sheet.add_chart(chart, 'f2')
+sheet.add_chart(chart, 'F2')
 # wb.save('sourav.xlsx')
 wb.save('save.xlsx')
